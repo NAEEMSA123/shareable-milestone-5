@@ -1,0 +1,95 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #697565;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    background-color:#ECDFCC;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    border: 1px solid rgb(170, 157, 157);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #FFEB00;
+}
+
+/* Resume Display */
+#resume-display {
+    background-color: white;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 5px auto;
+}
+
+/* Shareable Link Section */
+#shareable-link-container {
+    text-align: center;
+}
+
+#shareable-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    
+    
+}
+
+#shareable-link:hover {
+    text-decoration: underline;
+}
+
+#download-pdf{
+    
+    background-color:black;
+}
+
+#download-pdf:hover{
+    color: blue;
+}
